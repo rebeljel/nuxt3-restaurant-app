@@ -19,9 +19,14 @@ const restaurant = restaurants.find((r) => r.name === name);
 if (!restaurant) {
   throw createError({
     statusCode: 404,
-    statusMessage: "Page Not Founddd",
+    statusMessage: "Page Not Found",
   });
 }
+
+useHead({
+  title: restaurant ? restaurant.name : "404 - Restaurant not found",
+  meta: [{ name: "viewport", content: "width=device-width" }],
+});
 </script>
 
 <template>
