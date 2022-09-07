@@ -1,6 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Bootcamp
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+### Using Nuxt 3 Concepts to build a restaurant app
+Layouts, Composables, Dynamic Routes
 
 ## Setup
 
