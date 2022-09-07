@@ -37,6 +37,7 @@ useHead({
           <img :src="restaurant.imageUrl" :alt="restaurant.name" />
         </div>
         <div class="info-container">
+          <NuxtLink to="/">Back to overview</NuxtLink>
           <h1>{{ restaurant.name }}</h1>
           <div class="stats-container">
             <h5>Revenue (in billions)</h5>
