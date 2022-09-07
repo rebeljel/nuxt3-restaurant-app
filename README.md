@@ -1,6 +1,6 @@
 # Nuxt 3 Bootcamp
 
-### Using Nuxt 3 Concepts to build a restaurant app
+### New Nuxt 3 Concepts to build a restaurant app
 Layouts, Composables, Dynamic Routes
 
 ## Setup
